@@ -1,10 +1,13 @@
 {
-  "name": "npm-init",
+  "name": "walk8243-npm-init",
   "version": "0.0.0",
   "description": "`npm init`の設定をカスタマイズ",
   "main": "lib/init.js",
   "scripts": {
     "test": "mocha ./test/mocha --exit"
+  },
+  "bin": {
+    "walk8243-npm-init": "./bin/exec"
   },
   "repository": {
     "type": "git",
