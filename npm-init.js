@@ -4,6 +4,5 @@ module.exports = {
     start : "node ./bin/exec",
     test  : "mocha ./test/mocha --exit",
   },
-  author  : "walk8243 (https://qiita.com/walk8243)",
-  license : "MIT",
+  license : "ISC",
 };
