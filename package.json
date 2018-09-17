@@ -4,6 +4,9 @@
   "description": "`npm init`の設定をカスタマイズ",
   "main": "lib/init.js",
   "scripts": {
+    "exam:basic": "cd example && ./basic && cd ../",
+    "exam:custom": "cd example && ./custom && cd ../",
+    "exam:none": "cd example && ./none && cd ../",
     "test": "mocha ./test/mocha --exit"
   },
   "bin": {
