@@ -1,6 +1,6 @@
 {
   "name": "walk8243-npminit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "`npm init`の設定をカスタマイズ",
   "main": "lib/init.js",
   "scripts": {
@@ -16,7 +16,11 @@
     "type": "git",
     "url": "git+https://github.com/walk8243/npm-init.git"
   },
-  "keywords": ["walk8243", "npm init", "package.json"],
+  "keywords": [
+    "walk8243",
+    "npm init",
+    "package.json"
+  ],
   "author": "walk8243 (https://qiita.com/walk8243)",
   "license": "MIT",
   "bugs": {
@@ -28,6 +32,6 @@
   },
   "devDependencies": {
     "mocha": "^5.2.0",
-    "sinon": "^6.3.3"
+    "sinon": "^6.3.4"
   }
 }
