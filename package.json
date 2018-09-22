@@ -1,6 +1,6 @@
 {
   "name": "walk8243-npminit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "`npm init`の設定をカスタマイズ",
   "main": "lib/init.js",
   "scripts": {
