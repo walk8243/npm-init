@@ -27,5 +27,20 @@ module.exports = {
 walk8243-npm-init npm-init.js
 ```
 
+## Example
+```
+# Basic
+npm run exam:basic
+
+# Custom
+npm run exam:custom
+```
+
+## Required
+```
+const npmInit = require('walk8243-npminit');
+npmInit(__dirname + '/npm-init.js');
+```
+
 ## License
-`walk8243-npminit` is released under the [MIT License](https://github.com/walk8243/npm-init/blob/master/LICENSE)
+`walk8243-npminit` is released under the [MIT License](https://github.com/walk8243/npm-init/blob/master/LICENSE.md)
