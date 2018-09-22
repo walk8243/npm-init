@@ -1,5 +1,18 @@
 #!/usr/bin/env node
 
-describe('', () => {
+const sinon = require('sinon');
+fakeError   = sinon.fake.throws(new Error('fake Error'));
+testError = new Error('test Error');
+stubConsole = {};
+const consoleLevel = [ 'debug', 'log', 'warn', 'error' ];
+before(() => {
+  for(const level of consoleLevel) stubConsole[level] = sinon.stub(console, level).callThrough();
+});
+afterEach(() => {
+  for(const level of consoleLevel) stubConsole[level].resetHistory();
+});
 
+describe('Library', () => {
+  require('./lib/func');
+  require('./lib/init');
 });
