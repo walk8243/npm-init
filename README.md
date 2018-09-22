@@ -8,7 +8,7 @@ npm i walk8243-npminit -g
 
 ## Usage
 ```
-walk8243-npminit
+walk8243-npm-init
 ```
 
 ### Setting File
@@ -24,7 +24,7 @@ module.exports = {
 };
 
 # command line
-walk8243-npminit npm-init.js
+walk8243-npm-init npm-init.js
 ```
 
 ## License
