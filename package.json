@@ -7,7 +7,9 @@
     "exam:basic": "cd example && ./basic && cd ../",
     "exam:custom": "cd example && ./custom && cd ../",
     "exam:none": "cd example && ./none && cd ../",
-    "test": "mocha ./test/mocha --exit -R nyan"
+    "mocha": "mocha ./test/mocha --exit",
+    "prepublishOnly": "npm update && npm test > /dev/null",
+    "test": "npm run mocha -- -R nyan"
   },
   "bin": {
     "walk8243-npm-init": "./bin/exec"
